@@ -6,7 +6,7 @@ Spyre is a Web Application Framework for providing a simple user interface for P
 
 Requirements
 ----
-Spyre runs on the minimalist python web framework, **[cherrypy]**, with **[jinja2]** templating. At it's heart, spyre is about data and data visualization, so you'll also need **[pandas]** and **[matplotlib]**.
+Spyre runs on the minimalist python web framework, **[cherrypy]**, with **[jinja2]** templating. At its heart, spyre is about data and data visualization, so you'll also need **[pandas]** and **[matplotlib]**.
 
 
 Installation
@@ -87,7 +87,7 @@ Example 2: Tabs and Tables
 ----
 Let's look at another example to introduce controls, tabs, and a second output type, tables. Many apps will require multiple outputs. In these cases, it's often cleaner to put each output in a separte tab. 
 
-In the example below we'll show historical stock data in a line graph and a table, each in it's own tab.  Since inputs can only have a single action_id (and we have two outputs), we'll need to introduce a button control in order to update both outputs.
+In the example below we'll show historical stock data in a line graph and a table, each in its own tab.  Since inputs can only have a single action_id (and we have two outputs), we'll need to introduce a button control in order to update both outputs.
 
 
 ```python
